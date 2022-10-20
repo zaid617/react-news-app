@@ -3,4 +3,6 @@
     border: 1px solid saddlebrown;
     height: 80vh;
     overflow: hidden;
+    position: sticky;
+    top: 76px;
 }

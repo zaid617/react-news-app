@@ -10,11 +10,15 @@
     font-size: 1.3rem;
     font-weight: 400;
     flex-direction: column;
+    position: sticky;
+    top: 76px;
 }
 
-.category h3{
-    font-size: 2.5rem;
+.h3{
+    font-size: 1.5rem;
     font-weight: 400;
+    text-decoration: underline;
+    margin-top: 5px;
 }
 
 .category ul

@@ -6,6 +6,9 @@
     background-color: #ffff;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 .logo{
     font-size: 2rem;
@@ -45,7 +48,7 @@
 }
 
 .search input{
-    padding: 6px;
+    padding: 8px;
     border-radius: 20px;
     border: 1px solid grey;
     outline: none;

@@ -6,7 +6,7 @@ export default function Sidebar() {
   return (
     <div className='sideBar'>
 
-        <h3>Category</h3>
+        <h3 className='h3'>Categories</h3>
       
       <div className="category">
           <ul>
