@@ -14,8 +14,15 @@ export default function Post(props) {
     </div>
     <div className="titleBox">
     <div className="title"><h4>{props.name}</h4></div>
-    <div className="date">{moment(props.date).fromNow()}</div>
+    <hr />
+    <div className="date">{moment(props.date).format("Do MMMM YYYY, h:mm a")}</div>
     </div>
+
+    {
+     
+      console.log(props.name)
+      
+    }
 </div>
 
   )

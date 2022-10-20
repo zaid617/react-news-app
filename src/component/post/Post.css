@@ -64,11 +64,12 @@
 
 .title h4 {
     font-size: 25px;
-    padding-top: 5px;
+    padding: 10px;
+    font-weight: 500;
 }
 
 .date{
-    padding: 5px;
+    padding: 10px;
 }
 
 @media screen and (max-width:750px) {

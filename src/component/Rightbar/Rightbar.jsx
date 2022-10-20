@@ -36,8 +36,6 @@ export default function Rightbar() {
 
   useEffect(() => {
 
-    setTimeout(() => {
-      
     const options = {
       method: 'GET',
       url: 'https://bing-news-search1.p.rapidapi.com/news/search',
@@ -56,7 +54,6 @@ export default function Rightbar() {
       console.error(error);
     });
     
-    }, 1500);
 
   }, [])
 

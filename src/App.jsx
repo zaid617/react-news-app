@@ -11,11 +11,14 @@ function App() {
   let [data , setData] = useState([]);
   let [value , setValue] = useState("");
 
-  useEffect(()=>{
+  useEffect(() => {
+
+    
+
     const options = {
       method: 'GET',
-      url: 'https://bing-news-search1.p.rapidapi.com/news/trendingtopics',
-      params: {textFormat: 'Raw', safeSearch: 'Off'},
+      url: 'https://bing-news-search1.p.rapidapi.com/news/search',
+      params: {q: 'world', freshness: 'Day', textFormat: 'Raw', safeSearch: 'Off'},
       headers: {
         'X-BingApis-SDK': 'true',
         'X-RapidAPI-Key': '338ccba132mshbf3b25d769906ccp10e56ejsn48743670e061',
@@ -24,14 +27,13 @@ function App() {
     };
     
     axios.request(options).then(function (response) {
-      console.log(response.data);
       setData(response.data.value)
 
-    })
-    .catch(function (error) {
+    }).catch(function (error) {
       console.error(error);
     });
-  })
+
+  }, [])
 
   let submitHandler =(e)=>{
       e.preventDefault();
