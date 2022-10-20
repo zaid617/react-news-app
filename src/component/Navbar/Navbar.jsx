@@ -15,9 +15,9 @@ export default function Navbar() {
               <li><Call/> <span>Contact Us</span></li>
           </ul>
       </div>
-      <div className='search'>
+      <form className='search'>
         <input type="search" id=""  placeholder='Enter search term'/>
-      </div>
+      </form>
     </div>
   )
 }

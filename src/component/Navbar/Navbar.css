@@ -10,9 +10,9 @@
     top: 0;
     z-index: 100;
 
-    box-shadow: 0px 0px 35px -16px rgba(0, 0, 0, 0.75);
-    -webkit-box-shadow: 0px 0px 35px -16px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 0px 0px 35px -16px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 35px -24px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 0px 35px -24px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 35px -24px rgba(0, 0, 0, 0.75);
 }
 .logo{
     font-size: 2rem;

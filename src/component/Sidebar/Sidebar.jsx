@@ -8,11 +8,11 @@ export default function Sidebar() {
 
             
       <div className="category">
-
+      <div>
         <h3 className='h3'>Categories</h3>
 
             <hr />
-            
+            </div>      
           <ul>
               <li><SportsCricket/><span>Sports</span></li>
               <li><Group/><span>Politics</span></li>
