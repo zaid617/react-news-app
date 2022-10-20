@@ -6,6 +6,7 @@
     border-radius: 20px ;
     background-color: #f9f9f9;
     height: max-content;
+    scrollbar-width: thin;
 
 }
 .mb-3{
@@ -23,6 +24,8 @@
 
 .rightSubBox ul{
     list-style: none;
+    height: 400px;
+    overflow-y: scroll;
 }
 
 .rightSubBox ul li{

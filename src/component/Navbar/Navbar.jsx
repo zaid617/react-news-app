@@ -1,10 +1,10 @@
-import { Call } from '@mui/icons-material';
+import { Call, Search } from '@mui/icons-material';
 import { Info } from '@mui/icons-material';
 import HomeIcon from '@mui/icons-material/Home';
 import React from 'react'
 import "./Navbar.css"
 
-export default function Navbar() {
+export default function Navbar(props) {
   return (
     <div className='header'>
       <div className='logo'>NEWS</div>
@@ -15,8 +15,9 @@ export default function Navbar() {
               <li><Call/> <span>Contact Us</span></li>
           </ul>
       </div>
-      <form className='search'>
-        <input type="search" id=""  placeholder='Enter search term'/>
+      <form className='search' >
+        <input onChange={(e)=>{props.setValue(e.target.value)}} value={props.value}  placeholder='Enter search term' type="text"/>
+        <button onClick={props.searchHandler} className='btn' ><Search /></button>
       </form>
     </div>
   )

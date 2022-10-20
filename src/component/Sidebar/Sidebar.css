@@ -11,7 +11,7 @@
     font-weight: 400;
     position: sticky;
     top: 76px;
-    
+    scrollbar-width: thin;
     box-shadow: 0px 0px 35px -24px rgba(0, 0, 0, 0.75);
     -webkit-box-shadow: 0px 0px 35px -24px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 0px 35px -24px rgba(0, 0, 0, 0.75);
