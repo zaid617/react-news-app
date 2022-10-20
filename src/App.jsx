@@ -13,8 +13,6 @@ function App() {
 
   useEffect(() => {
 
-    
-
     const options = {
       method: 'GET',
       url: 'https://bing-news-search1.p.rapidapi.com/news/search',
@@ -36,6 +34,7 @@ function App() {
   }, [])
 
   let submitHandler =(e)=>{
+
       e.preventDefault();
 
       const options = {
@@ -63,7 +62,7 @@ function App() {
     <div className="App">
      <Navbar setData={setData} value={value} setValue={setValue} submitHandler={submitHandler}/>
      <div className="homeContainer">
-       <Sidebar/>
+       <Sidebar setValue={setValue} submitHandler={submitHandler}/>
        <Feed data={data}/>
        <Rightbar/>
      </div>

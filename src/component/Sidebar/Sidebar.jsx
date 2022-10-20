@@ -2,7 +2,7 @@ import { AttachMoney, Business, Flag, Group, HealthAndSafety, PlayCircle, Precis
 import React from 'react'
 import "./Sidebar.css"
 
-export default function Sidebar() {
+export default function Sidebar(props) {
   return (
     <div className='sideBar'>
 
@@ -14,15 +14,15 @@ export default function Sidebar() {
             <hr />
             </div>      
           <ul>
-              <li><SportsCricket/><span>Sports</span></li>
-              <li><Group/><span>Politics</span></li>
-              <li><Flag/><span>National</span></li>
-              <li><Business/><span>Business</span></li>
-              <li><AttachMoney/><span>Finance</span></li>
-              <li><HealthAndSafety/><span>Health Care</span></li>
-              <li><PrecisionManufacturing/><span>Technology</span></li>
-              <li><PlayCircle/><span>Media</span></li>
-              <li><Work/><span>Jobs</span></li>
+              <li onClick={()=>{props.setValue("Sports")}}><SportsCricket/><span>Sports</span></li>
+              <li onClick={()=>{props.setValue("Politics")}}><Group/><span>Politics</span></li>
+              <li onClick={()=>{props.setValue("National")}}><Flag/><span>National</span></li>
+              <li onClick={()=>{props.setValue("usiness")}}><Business/><span>Business</span></li>
+              <li onClick={()=>{props.setValue("Finance")}}><AttachMoney/><span>Finance</span></li>
+              <li onClick={()=>{props.setValue("Health")}}><HealthAndSafety/><span>Health Care</span></li>
+              <li onClick={()=>{props.setValue("Technology")}}><PrecisionManufacturing/><span>Technology</span></li>
+              <li onClick={()=>{props.setValue("Media")}}><PlayCircle/><span>Media</span></li>
+              <li onClick={()=>{props.setValue("obs")}}><Work/><span>Jobs</span></li>
           </ul>
       </div>
 
