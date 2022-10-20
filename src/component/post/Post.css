@@ -8,6 +8,7 @@
     box-shadow: 0px 0px 40px -16px rgba(0, 0, 0, 0.75);
     -webkit-box-shadow: 0px 0px 40px -16px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 0px 40px -16px rgba(0, 0, 0, 0.75);
+    overflow: hidden;
 }
 
 .container {
@@ -86,9 +87,24 @@
     }
 
     .title h4{
-        font-size: 14px;
+        font-size: 12px;
     }
     .image{
         height: 100px;
+        border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    }
+    .post{
+        border-radius: 10px;
+    }
+    .overlay{
+        border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    }
+    .text{
+        font-size: 8px;
+    }
+    .date{
+        font-size: 10px;
     }
 }
