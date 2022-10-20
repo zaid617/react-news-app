@@ -81,10 +81,13 @@
 }
 @media screen and (max-width:650px) {
     .titleBox{
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .title h4{
-        font-size: 18px;
+        font-size: 14px;
+    }
+    .image{
+        height: 100px;
     }
 }

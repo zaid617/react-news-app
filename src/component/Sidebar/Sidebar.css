@@ -9,20 +9,14 @@
     justify-content: space-around;
     font-size: 1.3rem;
     font-weight: 400;
-    flex-direction: column;
     position: sticky;
     top: 76px;
-
-    /* box-shadow: 0px 0px 35px -16px rgba(0, 0, 0, 0.75);
-    -webkit-box-shadow: 0px 0px 35px -16px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 0px 0px 35px -16px rgba(0, 0, 0, 0.75); */
 }
 
 .h3{
     font-size: 1.5rem;
     font-weight: 400;
-    text-decoration: underline;
-    margin-top: 8px;
+    margin-bottom: 8px;
 }
 
 .category ul
@@ -63,6 +57,9 @@
         font-size: 17px;
         padding: 3px;
     }
+    .h3 {
+        padding: 10px;
+    }
 }
 
 @media screen and (max-width: 840px) {
@@ -73,10 +70,12 @@
     .category{
         padding: 20px;
     }
+    
 }
 
 @media screen and (max-width: 650px){
     .sideBar{
         flex: 30%;
     }
+    
 }
