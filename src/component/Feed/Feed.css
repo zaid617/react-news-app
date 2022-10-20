@@ -11,3 +11,16 @@
 
 }
 
+@media screen and (max-width:850px) {
+    .feed h1{
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width:650px) {
+    .feed h1{
+        font-size: 1.5rem;
+    }
+    .feed{
+        flex: 40%;
+    }
+}

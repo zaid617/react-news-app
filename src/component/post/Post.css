@@ -70,3 +70,21 @@
 .date{
     padding: 5px;
 }
+
+@media screen and (max-width:750px) {
+    .image{
+        height: 200px;
+    }
+    .text{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:650px) {
+    .titleBox{
+        font-size: 14px;
+    }
+
+    .title h4{
+        font-size: 18px;
+    }
+}

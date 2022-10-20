@@ -22,7 +22,7 @@
     font-size: 1.5rem;
     font-weight: 400;
     text-decoration: underline;
-    margin-top: 5px;
+    margin-top: 8px;
 }
 
 .category ul
@@ -40,6 +40,7 @@
     font-weight: 400;
     border:  1px solid #f9f9f9;
     transition: all 0.3s ease-in-out;
+    font-size: 17px;
     
 }
 
@@ -53,5 +54,29 @@
 
 .category ul li span{
     padding: 5px;
+    width: max-content;
 }
 
+
+@media screen and (max-width: 1024px) {
+    .category ul li{
+        font-size: 17px;
+        padding: 3px;
+    }
+}
+
+@media screen and (max-width: 840px) {
+    .category ul li{
+        font-size: 15px;
+        padding: 2px;
+    }
+    .category{
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .sideBar{
+        flex: 30%;
+    }
+}
