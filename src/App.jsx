@@ -55,6 +55,8 @@ function App() {
       }).catch(function (error) {
         console.error(error);
       });
+
+      return false;
   }
 
   return (

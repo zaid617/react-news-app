@@ -17,7 +17,7 @@ export default function Navbar(props) {
       </div>
       <form className='search' >
         <input onChange={(e)=>{props.setValue(e.target.value)}} value={props.value}  placeholder='Enter search term' type="text"/>
-        <button onClick={props.searchHandler} className='btn' ><Search /></button>
+        <button onClick={props.submitHandler} className='btn' ><Search /></button>
       </form>
     </div>
   )
