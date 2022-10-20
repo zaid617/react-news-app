@@ -35,7 +35,11 @@ export default function Rightbar() {
 
 
   useEffect(() => {
+<<<<<<< HEAD
 
+=======
+      
+>>>>>>> b9f3beffa00cfc8914a5dde354d3991794de18de
     const options = {
       method: 'GET',
       url: 'https://bing-news-search1.p.rapidapi.com/news/search',
