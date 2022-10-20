@@ -1,0 +1,11 @@
+.feed{
+    flex: 6;
+    border: 1px solid rebeccapurple;
+    margin: 10px;
+    padding: 10px;
+}
+
+.feed h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}

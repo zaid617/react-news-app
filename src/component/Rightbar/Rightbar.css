@@ -1,0 +1,6 @@
+.rightBar{
+    flex: 3;
+    border: 1px solid saddlebrown;
+    height: 80vh;
+    overflow: hidden;
+}

@@ -1,0 +1,49 @@
+.sideBar{
+    flex: 2;
+    height: 80vh;
+    overflow: hidden;
+    background-color: #ffff;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.3rem;
+    font-weight: 400;
+    flex-direction: column;
+}
+
+.category h3{
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+.category ul
+{
+    list-style: none;
+    margin: 20px;
+    cursor: pointer;
+}
+
+
+.category ul li{
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    border:  1px solid #ffff;
+    transition: all 0.3s ease-in-out;
+    
+}
+
+.category ul :hover{
+    border-bottom: 1px solid red;
+    color: red;
+}
+.category ul li :hover{
+    border: none;
+}
+
+.category ul li span{
+    padding: 5px;
+}
+

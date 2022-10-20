@@ -1,0 +1,53 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #ffff;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.logo{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.icons ul{
+    position: relative;
+    display: flex;
+    list-style: none;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.icons ul li{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    color: rgb(140, 138, 138);
+    border: 2px solid white;
+    transition: all 0.3s ease-in-out;
+}
+
+.icons ul li :hover{
+    border: none;
+}
+
+.icons ul :hover{
+    color: red;
+    border-bottom: 2px solid red;
+}
+
+.icons ul li span{
+    
+    padding: 5px;
+
+}
+
+.search input{
+    padding: 6px;
+    border-radius: 20px;
+    border: 1px solid grey;
+    outline: none;
+    font-size: 14px;
+}
