@@ -35,8 +35,6 @@ export default function Rightbar() {
 
 
   useEffect(() => {
-
-    setTimeout(() => {
       
     const options = {
       method: 'GET',
@@ -56,7 +54,6 @@ export default function Rightbar() {
       console.error(error);
     });
     
-    }, 1500);
 
   }, [])
 
