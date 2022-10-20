@@ -9,6 +9,10 @@
     position: sticky;
     top: 0;
     z-index: 100;
+
+    box-shadow: 0px 0px 35px -16px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 0px 35px -16px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 35px -16px rgba(0, 0, 0, 0.75);
 }
 .logo{
     font-size: 2rem;
@@ -39,6 +43,7 @@
 .icons ul :hover{
     color: red;
     border-bottom: 2px solid red;
+    text-shadow: 0px 0px 50px rgb(255, 154, 154);
 }
 
 .icons ul li span{

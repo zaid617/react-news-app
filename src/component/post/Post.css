@@ -23,6 +23,7 @@
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     object-fit: cover;
+    background-color: grey;
 }
 
 .overlay {
@@ -64,5 +65,8 @@
 .title h4 {
     font-size: 25px;
     padding-top: 5px;
-    padding-bottom: 5px;
+}
+
+.date{
+    padding: 5px;
 }

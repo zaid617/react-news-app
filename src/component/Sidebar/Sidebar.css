@@ -1,8 +1,8 @@
 .sideBar{
-    flex: 2;
-    height: 80vh;
+    flex: 2.5;
+    height: calc(100vh - 90px);
     overflow: hidden;
-    background-color: #ffff;
+    background-color: #f9f9f9;
     border-radius: 20px;
     display: flex;
     align-items: center;
@@ -12,6 +12,10 @@
     flex-direction: column;
     position: sticky;
     top: 76px;
+
+    /* box-shadow: 0px 0px 35px -16px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 0px 35px -16px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 35px -16px rgba(0, 0, 0, 0.75); */
 }
 
 .h3{
@@ -34,7 +38,7 @@
     display: flex;
     align-items: center;
     font-weight: 400;
-    border:  1px solid #ffff;
+    border:  1px solid #f9f9f9;
     transition: all 0.3s ease-in-out;
     
 }

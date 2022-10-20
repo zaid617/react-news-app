@@ -7,7 +7,7 @@ import "./Navbar.css"
 export default function Navbar() {
   return (
     <div className='header'>
-      <div className='logo'>News</div>
+      <div className='logo'>NEWS</div>
       <div className='icons'>
           <ul>
               <li><HomeIcon/> <span>Home</span></li>
