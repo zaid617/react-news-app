@@ -10,7 +10,7 @@ function App() {
 
   let [data , setData] = useState([]);
   let [value , setValue] = useState("");
-  let [stat ,setStat] = useState(true)
+  let [stat ,setStat] = useState(false)
 
   useEffect(() => {
 
