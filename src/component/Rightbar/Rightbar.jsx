@@ -69,7 +69,9 @@ export default function Rightbar() {
           <ul>
             {
               data.map(eachpost => (
+                <>
                 <li key={eachpost?.name}><p>{eachpost?.name}</p></li>
+                </>
               ))
             }
 

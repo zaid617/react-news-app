@@ -14,15 +14,15 @@ export default function Sidebar(props) {
             <hr />
             </div>      
           <ul>
-              <li onClick={()=>{props.setValue("Sports")}}><SportsCricket/><span>Sports</span></li>
-              <li onClick={()=>{props.setValue("Politics")}}><Group/><span>Politics</span></li>
-              <li onClick={()=>{props.setValue("National")}}><Flag/><span>National</span></li>
-              <li onClick={()=>{props.setValue("usiness")}}><Business/><span>Business</span></li>
-              <li onClick={()=>{props.setValue("Finance")}}><AttachMoney/><span>Finance</span></li>
-              <li onClick={()=>{props.setValue("Health")}}><HealthAndSafety/><span>Health Care</span></li>
-              <li onClick={()=>{props.setValue("Technology")}}><PrecisionManufacturing/><span>Technology</span></li>
-              <li onClick={()=>{props.setValue("Media")}}><PlayCircle/><span>Media</span></li>
-              <li onClick={()=>{props.setValue("obs")}}><Work/><span>Jobs</span></li>
+              <li onClick={()=>{props.clickHandler("Sports")}}><SportsCricket/><span>Sports</span></li>
+              <li onClick={()=>{props.clickHandler("Politics")}}><Group/><span>Politics</span></li>
+              <li onClick={()=>{props.clickHandler("National")}}><Flag/><span>National</span></li>
+              <li onClick={()=>{props.clickHandler("usiness")}}><Business/><span>Business</span></li>
+              <li onClick={()=>{props.clickHandler("Finance")}}><AttachMoney/><span>Finance</span></li>
+              <li onClick={()=>{props.clickHandler("Health")}}><HealthAndSafety/><span>Health Care</span></li>
+              <li onClick={()=>{props.clickHandler("Technology")}}><PrecisionManufacturing/><span>Technology</span></li>
+              <li onClick={()=>{props.clickHandler("Media")}}><PlayCircle/><span>Media</span></li>
+              <li onClick={()=>{props.clickHandler("jobs")}}><Work/><span>Jobs</span></li>
           </ul>
       </div>
 
