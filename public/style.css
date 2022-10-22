@@ -52,7 +52,7 @@ body{
 }
 
 .textball {
-  color: #300871;
+  color: #000000;
   display: inline-block;
   margin-left: 5px;
   font-size: 2rem;
@@ -74,7 +74,7 @@ body{
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background-color: #2f25e6;
+    background-color: #000000;
     transform-origin: 50%;
     animation: bounce 500ms alternate infinite ease;
   
