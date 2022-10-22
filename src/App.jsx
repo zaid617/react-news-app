@@ -29,9 +29,10 @@ function App() {
       setData(response.data.value)
       document.getElementById("root").style.display = "flex";
       document.getElementById("loader").style.display = "none";
-
+      
     }).catch(function (error) {
       console.error(error);
+      document.getElementById("loader").style.display = "none";
       document.querySelector('.cont_principal').className= "cont_principal cont_error_active"; 
     });
 
