@@ -16,7 +16,7 @@ function App() {
 
     const options = {
       method: 'GET',
-      url: 'https://bing-news-search1.p.rapidapi.com/news/search',
+      url: 'https://bing-news-search1.p.rapidapi.com/news/searc',
       params: {q: 'world', freshness: 'Day', textFormat: 'Raw', safeSearch: 'Off'},
       headers: {
         'X-BingApis-SDK': 'true',

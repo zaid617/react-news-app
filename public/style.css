@@ -104,6 +104,12 @@ body{
 
 /* error page */
 
+#error{
+  margin:0px auto;
+  padding: 0px;
+text-align:center;
+}
+
 
 .cont_principal {
   position: absolute;  
