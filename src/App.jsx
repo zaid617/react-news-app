@@ -32,6 +32,7 @@ function App() {
 
     }).catch(function (error) {
       console.error(error);
+      document.querySelector('.cont_principal').className= "cont_principal cont_error_active"; 
     });
 
   }, [])
