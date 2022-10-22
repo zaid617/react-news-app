@@ -27,6 +27,8 @@ function App() {
     
     axios.request(options).then(function (response) {
       setData(response.data.value)
+      document.getElementById("root").style.display = "flex";
+      document.getElementById("loader").style.display = "none";
 
     }).catch(function (error) {
       console.error(error);
