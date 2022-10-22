@@ -84,3 +84,29 @@
     }
     
 }
+
+@media screen and (max-width: 550px){
+    .h3{
+        font-size: 1rem;
+    }
+
+    .sideBar{
+        flex: 30%;
+        margin: 10px;
+    }
+
+    .category ul li{
+        font-size: 0.6rem;
+    }
+
+    .icon{
+        width: 0.8rem;
+        height: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .sideBar{
+        display: none;
+    }
+}

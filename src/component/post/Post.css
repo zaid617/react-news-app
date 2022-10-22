@@ -73,9 +73,9 @@
     padding: 10px;
 }
 
-@media screen and (max-width:750px) {
+@media screen and (max-width:800px) {
     .image{
-        height: 200px;
+        height: 300px;
     }
     .text{
         font-size: 14px;
@@ -83,7 +83,8 @@
 }
 @media screen and (max-width:650px) {
     .titleBox{
-        font-size: 12px;
+        font-size: 17px;
+        padding: 10px;
     }
 
     .title h4{
@@ -107,4 +108,28 @@
     .date{
         font-size: 10px;
     }
+}
+
+@media screen and (max-width:550px){
+    .title h4{
+        font-size: 8px;
+        padding: 5px;
+    }
+
+    .date{
+        font-size: 6px;
+    }
+
+}
+
+@media screen and (max-width:550px){
+    .title h4{
+        font-size: 12px;
+        padding: 10px;
+    }
+
+    .date{
+        font-size: 10px;
+    }
+
 }

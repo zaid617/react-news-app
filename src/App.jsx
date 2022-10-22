@@ -20,7 +20,7 @@ function App() {
       params: {q: 'world', freshness: 'Day', textFormat: 'Raw', safeSearch: 'Off'},
       headers: {
         'X-BingApis-SDK': 'true',
-        'X-RapidAPI-Key': '338ccba132mshbf3b25d769906ccp10e56ejsn48743670e061',
+            'X-RapidAPI-Key': '124bff5b2emsh5d7ca3744b99eb0p15e6a2jsn3d428e1ce4e0',
         'X-RapidAPI-Host': 'bing-news-search1.p.rapidapi.com'
       }
     };
@@ -46,7 +46,7 @@ function App() {
       params: {q: value , freshness: 'Day', textFormat: 'Raw', safeSearch: 'Off'},
       headers: {
         'X-BingApis-SDK': 'true',
-        'X-RapidAPI-Key': '338ccba132mshbf3b25d769906ccp10e56ejsn48743670e061',
+            'X-RapidAPI-Key': '124bff5b2emsh5d7ca3744b99eb0p15e6a2jsn3d428e1ce4e0',
         'X-RapidAPI-Host': 'bing-news-search1.p.rapidapi.com'
       }
     };
@@ -68,7 +68,7 @@ function App() {
       params: {q: value , freshness: 'Day', textFormat: 'Raw', safeSearch: 'Off'},
       headers: {
         'X-BingApis-SDK': 'true',
-        'X-RapidAPI-Key': '338ccba132mshbf3b25d769906ccp10e56ejsn48743670e061',
+            'X-RapidAPI-Key': '124bff5b2emsh5d7ca3744b99eb0p15e6a2jsn3d428e1ce4e0',
         'X-RapidAPI-Host': 'bing-news-search1.p.rapidapi.com'
       }
     };

@@ -21,6 +21,14 @@
         font-size: 1.5rem;
     }
     .feed{
-        flex: 40%;
+        flex: 70%;
+    }
+}
+@media screen and (max-width:550px) {
+    .feed h1{
+        font-size: 1.2rem;
+    }
+    .feed{
+        flex: 70%;
     }
 }
