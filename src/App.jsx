@@ -10,7 +10,6 @@ function App() {
 
   let [data , setData] = useState([]);
   let [value , setValue] = useState("");
-  let [stat ,setStat] = useState(false)
 
   useEffect(() => {
 
@@ -39,8 +38,6 @@ function App() {
   }, [])
 
   const submitHandler =(e)=>{
-
-      if (!stat) {
   
       e.preventDefault()
 
@@ -65,7 +62,11 @@ function App() {
     return false;
   }
 
-  else{
+
+  function clickHandler (val){
+
+    setValue(val)
+
     const options = {
       method: 'GET',
       url: 'https://bing-news-search1.p.rapidapi.com/news/search',
@@ -82,18 +83,10 @@ function App() {
       setData(response.data.value)
     }).catch(function (error) {
       console.error(error);
-      setStat(false)
     });
   }
-}
 
-  function clickHandler (val){
 
-    setStat(true)
-    setValue(val)
-    submitHandler()
-
-}
 
   return (
     <div className="App">

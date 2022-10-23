@@ -17,12 +17,6 @@ export default function Post(props) {
     <hr />
     <div className="date">{moment(props.date).format("Do MMMM YYYY, h:mm a")}</div>
     </div>
-
-    {
-     
-      console.log(props.name)
-      
-    }
 </div>
 
   )
