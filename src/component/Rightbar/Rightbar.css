@@ -24,9 +24,8 @@
 
 .rightSubBox ul{
     list-style: none;
-    height: 400px;
-    overflow-y: scroll;
     padding: 5px;
+    height: 100%;
 }
 
 .rightSubBox ul li{
