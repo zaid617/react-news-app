@@ -65,12 +65,12 @@ function App() {
 
   function clickHandler (val){
 
-    setValue(val)
+//     setValue(val)
 
     const options = {
       method: 'GET',
       url: 'https://bing-news-search1.p.rapidapi.com/news/search',
-      params: {q: value , freshness: 'Day', textFormat: 'Raw', safeSearch: 'Off'},
+      params: {q: val , freshness: 'Day', textFormat: 'Raw', safeSearch: 'Off'},
       headers: {
         'X-BingApis-SDK': 'true',
             'X-RapidAPI-Key': '124bff5b2emsh5d7ca3744b99eb0p15e6a2jsn3d428e1ce4e0',
